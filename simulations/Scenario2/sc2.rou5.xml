@@ -1,0 +1,136 @@
+<routes>
+	<vType id="vtype0"  length="5.0" color="1,0,0" minGap="2.50" maxSpeed="27.78" carFollowModel="Krauss" accel="2.6" 
+	decel="4.5" emergencyDecel="9.0" tau="1.0" speedDev="0.1" laneChangeModel="LC2013" lcAssertive="1.0" lcStrategic="1.0" lcCooperative="1.0" speedFactor="1.0"/>
+	<route id="route1" color="1,1,0" edges="gneE0 gneE4" />
+	<route id="route2" color="1,1,0" edges="gneE0 -gneE3" />
+	<route id="route3" color="1,1,0" edges="gneE0 gneE1 gneE6" />
+	<route id="route4" color="1,1,0" edges="gneE0 gneE1 -gneE5" />
+	<route id="route5" color="1,1,0" edges="gneE0 gneE1 gneE2" />
+	<route id="route6" color="1,1,0" edges="-gneE4 -gneE0" />
+	<route id="route7" color="1,1,0" edges="-gneE4 -gneE3" />
+	<route id="route8" color="1,1,0" edges="-gneE4  gneE1 gneE6" />
+	<route id="route9" color="1,1,0" edges="-gneE4  gneE1 -gneE5" />
+	<route id="route10" color="1,1,0" edges="-gneE4  gneE1 gneE2" />
+	<route id="route11" color="1,2,0" edges="gneE3 -gneE0" />
+	<route id="route12" color="1,2,0" edges="gneE3 gneE4" />
+	<route id="route13" color="1,2,0" edges="gneE3 gneE1 gneE6" />
+	<route id="route14" color="1,2,0" edges="gneE3 gneE1 gneE2" />
+	<route id="route15" color="1,2,0" edges="gneE3 gneE1 -gneE5" />
+	<route id="route16" color="1,1,0" edges="-gneE6 -gneE1 -gneE0" />
+	<route id="route17" color="1,1,0" edges="-gneE6 -gneE1 -gneE3" />
+	<route id="route18" color="1,1,0" edges="-gneE6 -gneE1 gneE4" />
+	<route id="route19" color="1,1,0" edges="-gneE6 -gneE5" />
+	<route id="route20" color="1,1,0" edges="-gneE6 gneE2" />
+	<route id="route21" color="1,1,0" edges="gneE5 -gneE1 -gneE0" />
+	<route id="route22" color="1,1,0" edges="gneE5 -gneE1 -gneE3" />
+	<route id="route23" color="1,1,0" edges="gneE5 -gneE1 gneE4" />
+	<route id="route24" color="1,1,0" edges="gneE5 gneE6" />
+	<route id="route25" color="1,1,0" edges="gneE5 gneE2" />
+	<route id="route26" color="1,1,0" edges="-gneE2 -gneE1 -gneE0" />
+	<route id="route27" color="1,1,0" edges="-gneE2 -gneE1 -gneE3" />
+	<route id="route28" color="1,1,0" edges="-gneE2 -gneE1 gneE4" />
+	<route id="route29" color="1,1,0" edges="-gneE2 -gneE5" />
+	<route id="route30" color="1,1,0" edges="-gneE2 gneE6" />
+
+
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="56" route="route14" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="66" route="route6" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="90" route="route8" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="35" route="route15" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="77" route="route11" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="6" route="route30" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="25" route="route17" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="54" route="route5" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="51" route="route12" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="18" route="route15" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="32" route="route21" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="31" route="route21" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="50" route="route3" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="86" route="route16" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="41" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="37" route="route7" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="7" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="29" route="route1" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="68" route="route27" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="22" route="route23" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="92" route="route15" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="67" route="route20" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="13" route="route15" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="44" route="route1" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="95" route="route7" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="79" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="83" route="route4" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="57" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="63" route="route21" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="8" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="75" route="route18" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="23" route="route20" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="71" route="route5" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="28" route="route14" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="81" route="route23" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="80" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="36" route="route16" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="20" route="route3" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="53" route="route22" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="46" route="route16" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="70" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="5" route="route8" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="26" route="route18" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="2" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="39" route="route13" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="60" route="route9" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="3" route="route21" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="74" route="route1" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="76" route="route4" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="69" route="route9" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="96" route="route29" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="12" route="route22" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="64" route="route2" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="55" route="route1" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="93" route="route9" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="33" route="route13" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="65" route="route17" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="82" route="route29" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="52" route="route19" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="9" route="route23" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="73" route="route13" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="10" route="route15" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="58" route="route4" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="49" route="route24" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="21" route="route9" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="40" route="route12" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="14" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="11" route="route28" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="84" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="42" route="route22" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="72" route="route30" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="91" route="route7" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="61" route="route20" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="43" route="route3" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="47" route="route2" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="97" route="route3" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="88" route="route26" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="17" route="route9" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="34" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="45" route="route18" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="62" route="route11" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="15" route="route4" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="59" route="route17" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="24" route="route28" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="100" route="route8" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="30" route="route29" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="78" route="route30" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="4" route="route25" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="89" route="route6" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="48" route="route3" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="38" route="route14" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="98" route="route28" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="16" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="94" route="route10" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="87" route="route17" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="85" route="route5" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="99" route="route19" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="1" route="route17" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="27" route="route21" speedFactor="1.0" type="vtype0"/>
+		<vehicle color="1,0,0" depart="0" departSpeed="speedLimit" id="19" route="route7" speedFactor="1.0" type="vtype0"/>
+</routes>
