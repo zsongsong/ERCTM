@@ -79,8 +79,8 @@ void TraCIDemo11p::populateWSM(BaseFrame1609_4* wsm, LAddress::L2Type rcvId, int
 
         curP.x = curPosition.x +getRandom(meanP, sigmaP);
         curP.y = curPosition.y +getRandom(meanP, sigmaP);
-        curV.x = curSpeed.x * mobility->getSpeed()+getRandom(meanV, sigmaV);
-        curV.y = curSpeed.y * mobility->getSpeed()+getRandom(meanV, sigmaV);
+        curV.x = mobility->getCurrentDirection().x * mobility->getSpeed()+getRandom(meanV, sigmaV);
+        curV.y = mobility->getCurrentDirection().y * mobility->getSpeed()+getRandom(meanV, sigmaV);
 
         bsm->setSenderPos(curP);
         bsm->setSenderSpeed(curV);
